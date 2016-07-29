@@ -249,43 +249,20 @@
                                     <segue destination="9sy-CP-AlR" kind="show" id="bzc-Mc-MHP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMh-Nh-bDZ">
-                                <rect key="frame" x="20" y="332" width="65" height="100"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="player0Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqr-AF-HiD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufn-Vm-3wH">
-                                <rect key="frame" x="97" y="332" width="65" height="100"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="player0Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bs2-ZP-jOF"/>
-                                    <action selector="player1Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfK-ft-YVY"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKH-7H-jE1">
                                 <rect key="frame" x="175" y="332" width="65" height="100"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="player0Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VL0-Jd-itA"/>
-                                    <action selector="player1Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jYg-rm-mqM"/>
-                                    <action selector="player2Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zKp-ra-QMF"/>
-                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1C-jV-P7a">
                                 <rect key="frame" x="253" y="332" width="65" height="100"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="player0Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LSB-zv-wy8"/>
-                                    <action selector="player1Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ll-YI-MMm"/>
-                                    <action selector="player2Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ah5-4p-6Yb"/>
-                                    <action selector="player3Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cH0-co-rHy"/>
-                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAs-Wg-OTs">
+                                <rect key="frame" x="329" y="332" width="65" height="100"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEJ-Cx-IM5">
                                 <rect key="frame" x="106" y="503" width="46" height="30"/>
@@ -302,17 +279,15 @@
                                     <action selector="drawButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cyS-Pv-aKr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAs-Wg-OTs">
-                                <rect key="frame" x="329" y="332" width="65" height="100"/>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N59-xR-mO5">
+                                <rect key="frame" x="20" y="332" width="65" height="100"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="player0Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fjv-Kt-ezU"/>
-                                    <action selector="player1Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLK-cI-xri"/>
-                                    <action selector="player2Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hVu-wf-RBV"/>
-                                    <action selector="player3Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sPk-V0-YW5"/>
-                                    <action selector="player4Card:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1yK-iM-hBq"/>
-                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufn-Vm-3wH">
+                                <rect key="frame" x="97" y="332" width="65" height="100"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </button>
                         </subviews>
                         <animations/>
@@ -333,8 +308,6 @@
                             <constraint firstItem="BKH-7H-jE1" firstAttribute="bottom" secondItem="5fh-EL-qSX" secondAttribute="bottom" id="A1i-yb-84f"/>
                             <constraint firstItem="ufn-Vm-3wH" firstAttribute="firstBaseline" secondItem="J1C-jV-P7a" secondAttribute="firstBaseline" id="A9s-Yd-DRw"/>
                             <constraint firstItem="yXd-hb-r1o" firstAttribute="bottom" secondItem="5fh-EL-qSX" secondAttribute="bottom" id="AHZ-Iq-gfO"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="bottom" secondItem="9O1-Iw-o0N" secondAttribute="bottom" id="ArE-q1-g2Z"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="firstBaseline" secondItem="BKH-7H-jE1" secondAttribute="firstBaseline" id="B5s-9C-Hxc"/>
                             <constraint firstItem="fDI-wr-ePl" firstAttribute="bottom" secondItem="j5z-qq-zWP" secondAttribute="bottom" id="BPt-w9-Dz1"/>
                             <constraint firstItem="BKH-7H-jE1" firstAttribute="baseline" secondItem="ufn-Vm-3wH" secondAttribute="baseline" id="BQ0-eU-afO"/>
                             <constraint firstItem="5fh-EL-qSX" firstAttribute="top" secondItem="yXd-hb-r1o" secondAttribute="top" id="CVD-2c-CSs"/>
@@ -344,23 +317,16 @@
                             <constraint firstItem="AAs-Wg-OTs" firstAttribute="trailing" secondItem="FdF-SE-Ybh" secondAttribute="trailing" id="FkS-Wa-P4e"/>
                             <constraint firstItem="CR7-2a-IaY" firstAttribute="leading" secondItem="sVu-3h-TfO" secondAttribute="leading" id="HIG-sq-Mnc"/>
                             <constraint firstItem="sVu-3h-TfO" firstAttribute="top" secondItem="5fh-EL-qSX" secondAttribute="top" id="HrX-u3-fYj"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="baseline" secondItem="ufn-Vm-3wH" secondAttribute="baseline" id="Jne-4e-j8k"/>
-                            <constraint firstItem="J1C-jV-P7a" firstAttribute="baseline" secondItem="YMh-Nh-bDZ" secondAttribute="baseline" id="JoY-fX-zia"/>
                             <constraint firstItem="qUc-G0-OG2" firstAttribute="centerX" secondItem="uF4-3E-LWj" secondAttribute="centerX" id="K40-Kw-Dgb"/>
                             <constraint firstItem="BKH-7H-jE1" firstAttribute="trailing" secondItem="5fh-EL-qSX" secondAttribute="trailing" id="KXS-x5-EhN"/>
                             <constraint firstItem="4Vh-Ad-hZC" firstAttribute="leading" secondItem="CR7-2a-IaY" secondAttribute="trailing" constant="11" id="LQG-MR-aEj"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="firstBaseline" secondItem="J1C-jV-P7a" secondAttribute="firstBaseline" id="MKk-39-AGc"/>
                             <constraint firstItem="MAQ-tu-5UP" firstAttribute="top" secondItem="5fh-EL-qSX" secondAttribute="bottom" constant="80" id="MUq-ev-71N"/>
                             <constraint firstItem="fDI-wr-ePl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ndg-tS-BlD"/>
                             <constraint firstItem="J1C-jV-P7a" firstAttribute="leading" secondItem="sVu-3h-TfO" secondAttribute="leading" id="Nre-MR-QQG"/>
                             <constraint firstItem="FdF-SE-Ybh" firstAttribute="top" secondItem="sVu-3h-TfO" secondAttribute="top" id="OHu-3E-CW1"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="trailing" secondItem="9O1-Iw-o0N" secondAttribute="trailing" id="OP3-OY-giq"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="leading" secondItem="9O1-Iw-o0N" secondAttribute="leading" id="OaS-FW-lGu"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="firstBaseline" secondItem="ufn-Vm-3wH" secondAttribute="firstBaseline" id="Odp-eq-hZO"/>
                             <constraint firstItem="ufn-Vm-3wH" firstAttribute="baseline" secondItem="AAs-Wg-OTs" secondAttribute="baseline" id="Oxf-k3-Rbg"/>
                             <constraint firstItem="BKH-7H-jE1" firstAttribute="firstBaseline" secondItem="J1C-jV-P7a" secondAttribute="firstBaseline" id="RoQ-RN-nIc"/>
                             <constraint firstItem="AAs-Wg-OTs" firstAttribute="leading" secondItem="FdF-SE-Ybh" secondAttribute="leading" id="SFq-bS-FA4"/>
-                            <constraint firstItem="AAs-Wg-OTs" firstAttribute="baseline" secondItem="YMh-Nh-bDZ" secondAttribute="baseline" id="SzF-ho-x1Z"/>
                             <constraint firstItem="AEJ-Cx-IM5" firstAttribute="baseline" secondItem="MAQ-tu-5UP" secondAttribute="baseline" id="WBc-rE-Mv8"/>
                             <constraint firstItem="lfT-ZA-UII" firstAttribute="baseline" secondItem="kLq-1D-TCK" secondAttribute="baseline" id="WZw-Ae-eMY"/>
                             <constraint firstItem="fDI-wr-ePl" firstAttribute="top" secondItem="j5z-qq-zWP" secondAttribute="top" id="Wgc-eM-gtu"/>
@@ -377,7 +343,6 @@
                             <constraint firstItem="j5z-qq-zWP" firstAttribute="bottom" secondItem="uF4-3E-LWj" secondAttribute="bottom" id="bFo-Sm-DCw"/>
                             <constraint firstItem="AAs-Wg-OTs" firstAttribute="firstBaseline" secondItem="ufn-Vm-3wH" secondAttribute="firstBaseline" id="d0y-Yf-saO"/>
                             <constraint firstItem="h9B-1e-f7n" firstAttribute="leading" secondItem="qUc-G0-OG2" secondAttribute="leading" id="dJS-5F-wC1"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="firstBaseline" secondItem="AAs-Wg-OTs" secondAttribute="firstBaseline" id="dLG-0g-FUV"/>
                             <constraint firstItem="fDI-wr-ePl" firstAttribute="leading" secondItem="9O1-Iw-o0N" secondAttribute="leading" id="eAh-5u-Wx1"/>
                             <constraint firstItem="ufn-Vm-3wH" firstAttribute="firstBaseline" secondItem="BKH-7H-jE1" secondAttribute="firstBaseline" id="es7-01-sQl"/>
                             <constraint firstItem="J1C-jV-P7a" firstAttribute="baseline" secondItem="AAs-Wg-OTs" secondAttribute="baseline" id="f0C-KE-c5Y"/>
@@ -385,7 +350,6 @@
                             <constraint firstItem="j5z-qq-zWP" firstAttribute="leading" secondItem="fDI-wr-ePl" secondAttribute="trailing" constant="12" id="fuu-Ni-ClV"/>
                             <constraint firstItem="ufn-Vm-3wH" firstAttribute="top" secondItem="yXd-hb-r1o" secondAttribute="top" id="g2H-kZ-uDv"/>
                             <constraint firstItem="FdF-SE-Ybh" firstAttribute="bottom" secondItem="sVu-3h-TfO" secondAttribute="bottom" id="gjx-LJ-0E3"/>
-                            <constraint firstItem="YMh-Nh-bDZ" firstAttribute="top" secondItem="9O1-Iw-o0N" secondAttribute="top" id="h3L-lW-Kzb"/>
                             <constraint firstItem="j5z-qq-zWP" firstAttribute="leading" secondItem="yXd-hb-r1o" secondAttribute="leading" id="kov-5K-GuZ"/>
                             <constraint firstItem="uF4-3E-LWj" firstAttribute="trailing" secondItem="5fh-EL-qSX" secondAttribute="trailing" id="mPg-Pg-2ec"/>
                             <constraint firstItem="ufn-Vm-3wH" firstAttribute="trailing" secondItem="yXd-hb-r1o" secondAttribute="trailing" id="oB7-kR-Mkr"/>
@@ -406,7 +370,6 @@
                             <constraint firstItem="uF4-3E-LWj" firstAttribute="top" secondItem="CR7-2a-IaY" secondAttribute="top" id="yXj-rN-7jB"/>
                             <constraint firstItem="AAs-Wg-OTs" firstAttribute="bottom" secondItem="FdF-SE-Ybh" secondAttribute="bottom" id="zB7-wI-XPl"/>
                             <constraint firstItem="h9B-1e-f7n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zL7-08-qQ7"/>
-                            <constraint firstItem="BKH-7H-jE1" firstAttribute="baseline" secondItem="YMh-Nh-bDZ" secondAttribute="baseline" id="zVn-o6-xOS"/>
                             <constraint firstItem="CR7-2a-IaY" firstAttribute="leading" secondItem="uF4-3E-LWj" secondAttribute="trailing" constant="13" id="zva-is-4ZK"/>
                         </constraints>
                     </view>

@@ -12,8 +12,8 @@
 #import "PokerHand.h"
 
 @interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *dealerCards;
 
+@property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *dealerCards;
 @property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *playerCards;
 
 -(void) displayAllCards;

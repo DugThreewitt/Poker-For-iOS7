@@ -90,8 +90,16 @@
 }
 
 - (IBAction)player0Card:(UIButton *)sender {
-    [[ self.player.hand objectAtIndex:0 ] setHold:YES ] ;
-    sender.alpha = .1;
+    if ([[ self.player.hand objectAtIndex:0 ] hold ] == NO )
+    {
+        [[ self.player.hand objectAtIndex:0 ] setHold:YES ] ;
+        sender.alpha = .1;
+    }
+    else
+    {
+        [[ self.player.hand objectAtIndex:0 ] setHold:YES ] ;
+        sender.alpha = 0;
+    }
     
 }
 
