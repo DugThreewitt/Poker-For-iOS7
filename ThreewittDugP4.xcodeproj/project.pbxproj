@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3A2D0101D4BB39D00FBDD1A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2D00F1D4BB39D00FBDD1A /* MainViewController.m */; };
+		B105BD781D4E48D9004A460F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B105BD771D4E48D9004A460F /* MainViewController.m */; };
 		C3A2D0131D4BC39900FBDD1A /* VideoPokerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2D0121D4BC39900FBDD1A /* VideoPokerViewController.m */; };
 		C3B0400D1D47AB5800BC3B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0400C1D47AB5800BC3B78 /* main.m */; };
 		C3B040101D47AB5800BC3B78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0400F1D47AB5800BC3B78 /* AppDelegate.m */; };
@@ -85,8 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C3A2D00E1D4BB39D00FBDD1A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		C3A2D00F1D4BB39D00FBDD1A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B105BD761D4E48D9004A460F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B105BD771D4E48D9004A460F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C3A2D0111D4BC39900FBDD1A /* VideoPokerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPokerViewController.h; sourceTree = "<group>"; };
 		C3A2D0121D4BC39900FBDD1A /* VideoPokerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPokerViewController.m; sourceTree = "<group>"; };
 		C3B040081D47AB5800BC3B78 /* ThreewittDugP4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreewittDugP4.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,10 +211,10 @@
 				C3B040191D47AB5A00BC3B78 /* LaunchScreen.storyboard */,
 				C3B0401C1D47AB5A00BC3B78 /* Info.plist */,
 				C3B0400B1D47AB5800BC3B78 /* Supporting Files */,
-				C3A2D00E1D4BB39D00FBDD1A /* MainViewController.h */,
-				C3A2D00F1D4BB39D00FBDD1A /* MainViewController.m */,
 				C3A2D0111D4BC39900FBDD1A /* VideoPokerViewController.h */,
 				C3A2D0121D4BC39900FBDD1A /* VideoPokerViewController.m */,
+				B105BD761D4E48D9004A460F /* MainViewController.h */,
+				B105BD771D4E48D9004A460F /* MainViewController.m */,
 			);
 			path = ThreewittDugP4;
 			sourceTree = "<group>";
@@ -459,9 +459,9 @@
 				C3B040131D47AB5800BC3B78 /* ViewController.m in Sources */,
 				C3B040351D47BAC800BC3B78 /* PokerDeck.m in Sources */,
 				C3B040321D47AC0300BC3B78 /* PokerCard.m in Sources */,
+				B105BD781D4E48D9004A460F /* MainViewController.m in Sources */,
 				C3B040101D47AB5800BC3B78 /* AppDelegate.m in Sources */,
 				C3A2D0131D4BC39900FBDD1A /* VideoPokerViewController.m in Sources */,
-				C3A2D0101D4BB39D00FBDD1A /* MainViewController.m in Sources */,
 				C3B040C31D47D07D00BC3B78 /* PokerHand.m in Sources */,
 				C3B0400D1D47AB5800BC3B78 /* main.m in Sources */,
 			);
